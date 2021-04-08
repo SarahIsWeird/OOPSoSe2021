@@ -4,6 +4,9 @@ Hey! Hier sind alle Lösungen zu den Übungsaufgaben fürs Sommersemester 2021. 
 
 ## Bevor du startest, hier ein paar wichtige (und unwichtige) Infos:
 
+**WICHTIG: Gradle läuft nicht mit JDKs ab Version 16!**
+- Selbst kompilieren geht problemlos, aber in IDEs müsst ihr die Gradle JVM Version runterschrauben. IntelliJ: ``File > Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JVM`` auf ein niedrigeres JDK. Wenn ihr nur 16 habt, könnt ihr in dem Dialog unter ``Add SDK`` ein neues runterladen.
+
 Normalerweise lege ich großen Wert auf [semantische Versionierung](https://semver.org/). Das klappt bei den Übungsaufgaben nich so. Daher ist alles in Packages unterteilt.  Lösungen zu Übung 1 findet man in ``com.sarahisweird.oopsose2021.uebung1``, Lösungen zu Übung 2 in ``com.sarahisweird.oopsose2021.uebung2``, usw.
 
 Alle Lösungen, insbesondere die von komplexeren Aufgaben, unterliegen grundsätzlich dem Copyright von Sarah Klocke, sofern möglich. Der Grund ist, dass ich sinnloses Kopieren vermeiden will. Ich bin eine vehemente Anhängerin von freier Software, aber in der Uni muss das ja nicht sein. Damit tut ihr euch keinen Gefallen ;)
